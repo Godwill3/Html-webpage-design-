@@ -1,0 +1,77 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #f5f5f3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+.position{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.picture-wrap img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+.bio{
+    font-size:12;
+    line-height: 1.75;
+    color: #3d3d4e;
+    text-align: justify;
+    max-width: 420px;
+}
+.right{
+    background: #c9d4e8;
+    border-radius: 28px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #446eae;
+    line-height: 1.25;
+    position: relative;
+    margin-top: unset;
+}
+.sub-heading{
+    font-size: 0.92rem;
+    color: #6a7a9b;
+    max-width: 240px;
+    line-height: 1.25;
+    text-align:justify;
+    max-width: 700px;
+    margin-top: unset;
+}
+.circle img{
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    color: #c9d4e8;
+    display: block;
+    object-fit: cover;
+    margin-top: 50px;
+}
